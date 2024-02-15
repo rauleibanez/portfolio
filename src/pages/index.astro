@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Header from '../components/Header.astro';
+import Experience from '../components/Experience.astro';
+import Skills from '../components/Skills.astro';
+import Contact from '../components/Contact.astro';
+import data from './data.json';
+---
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>	
+<Header name={data.name} profession={data.profession} />
+<Experience experience={data.experience} />
+<Skills skills={data.skills} />
+<Contact email={data.email} phone={data.phone} />

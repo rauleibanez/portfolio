@@ -1,0 +1,17 @@
+<!-- components/Skills.astro -->
+---
+interface Props {
+  skills: string;
+}
+const {skills}=Astro.props;
+---
+<section>
+   <h2>Habilidades</h2>
+   <ul>{skills.map((Sk) =>{
+    return (
+      <li ${Sk}> {Sk}</li>)}
+     </ul>
+    )}
+   
+</section>
+

@@ -1,0 +1,11 @@
+{
+  "name": "Raúl Ibañez Martínez",
+  "profession": "Ingeniero de Sistemas",
+  "experience": [
+    { "company": "TechCorp", "role": "Desarrollador Fullstack", "years": "2018 - Actualidad" },
+    { "company": "CorpDATA", "role": "Desarrollador Fullstack", "years": "2016 - 2018" }
+  ],
+  "skills": ["JavaScript", "VueJs", "Node.js", "CSS", "SQL", "Python", "Django"],
+  "email": "rauleibnez@gmail.com",
+  "phone": "+123 456 789"
+}

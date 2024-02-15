@@ -1,0 +1,13 @@
+<!-- components/Contact.astro -->
+---
+interface Props {
+  email:string;
+  phone:string;
+}
+const { email, phone }= Astro.props;
+---
+<section>
+  <h2>Contacto</h2>
+  <p>Email: {email}</p>
+  <p>Teléfono: {phone}</p>
+</section>
