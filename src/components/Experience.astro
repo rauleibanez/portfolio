@@ -1,16 +1,16 @@
 <!-- components/Experience.astro -->
 ---
-interface Props {
-  experience: string;
-}
 const {experience}= Astro.props;
 ---
 
 <section>
   <h2>Experiencia Laboral</h2>
   <ul> {experience.map((exp) => (
-    <li key={exp.company}><strong>{exp.company}</strong> - {exp.role} ({exp.years})</li>
-        ))}
+    <li><strong>{exp.company}</strong> - {exp.role} ({exp.years})        
+      <br>
+      {exp.description}</li>
+      <br>      
+    ))}    
   </ul>
 </section>
 

@@ -1,11 +1,19 @@
 {
   "name": "Raúl Ibañez Martínez",
   "profession": "Ingeniero de Sistemas",
+  "profile": "Especialista en Soporte Técnico, Administración de redes, Servidores Windows / Linux y Desarrollo de sitios Web.",
   "experience": [
-    { "company": "TechCorp", "role": "Desarrollador Fullstack", "years": "2018 - Actualidad" },
-    { "company": "CorpDATA", "role": "Desarrollador Fullstack", "years": "2016 - 2018" }
+    { "company": "Indra Colombia S.A.S.", "role": "Aprendiz Desarrollo FullStack", "years": "2022 - 2023", "description": "Preparación de data y ejecución de pruebas funcionales en procesos Batch del Sistema de Administración de Tarjetas de Crédito (S.A.T.)." },
+    { "company": "Emprendimiento Freelance", "role": "Desarrollador Fullstack", "years": "2018 - 2019", "description": "Desarrollo de proyectos web y de escritorio para diversas empresas del sector educativo y comercial."},
+    { "company": "Proking C. A.", "role": "Especialista de Software y Sistemas", "years": "2016 - 2018", "description": "Administración del servidor de aplicaciones, soporte de red y usuarios, organización y control de procesos administrativos del área de TI."},
+    { "company": "Soda Phone C. A.", "role": "Técnico Especialista", "years": "2013 - 2016", "description": "Auxiliar de Tienda, vendedor, especialista técnico en reparación de dispositivos electrónicos y telefonía celular."},
+    { "company": "Niko Import C. A.", "role": "Asesor Comercial", "years": "2012 - 2013", "description": "Marketing de productos en plataformas digitales, Atención al cliente y Soporte postventa."},
+    { "company": "Hewlett Packard Venezuela.", "role": "ITO Service Delivery R.IV", "years": "2010 - 2011", "description": "Soporte de red, usuarios y aplicaciones de la plataforma Windows / Office."},
+    { "company": "Corporacion R.C.A.", "role": "Analista de Sistemas", "years": "2009 - 2010", "description": "Soporte de red, servidores, usuarios y aplicaciones de la plataforma Windows / Office."},
+    { "company": "Chrysler de Venezuela.", "role": "Analista de Sistemas", "years": "2001 - 2008", "description": "Soporte Técnico de red, servidores, usuarios y aplicaciones de las plataformas Windows y Linux."}
   ],
-  "skills": ["JavaScript", "VueJs", "Node.js", "CSS", "SQL", "Python", "Django"],
+
+  "skills": ["JavaScript", "Vue Js", "Node Js", "Astro" , "CSS", "SQL", "Python", "Django"],
   "email": "rauleibnez@gmail.com",
   "phone": "+123 456 789"
 }
