@@ -9,11 +9,11 @@
     { "company": "Soda Phone C. A.", "role": "Técnico Especialista", "years": "2013 - 2016", "description": "Auxiliar de Tienda, vendedor, especialista técnico en reparación de dispositivos electrónicos y telefonía celular."},
     { "company": "Niko Import C. A.", "role": "Asesor Comercial", "years": "2012 - 2013", "description": "Marketing de productos en plataformas digitales, Atención al cliente y Soporte postventa."},
     { "company": "Hewlett Packard Venezuela.", "role": "ITO Service Delivery R.IV", "years": "2010 - 2011", "description": "Soporte de red, usuarios y aplicaciones de la plataforma Windows / Office."},
-    { "company": "Corporacion R.C.A.", "role": "Analista de Sistemas", "years": "2009 - 2010", "description": "Soporte de red, servidores, usuarios y aplicaciones de la plataforma Windows / Office."},
+    { "company": "Corporacion R.C.A.", "role": "Analista de Sistemas", "years": "2008 - 2010", "description": "Soporte de red, servidores, usuarios y aplicaciones de la plataforma Windows / Office."},
     { "company": "Chrysler de Venezuela.", "role": "Analista de Sistemas", "years": "2001 - 2008", "description": "Soporte Técnico de red, servidores, usuarios y aplicaciones de las plataformas Windows y Linux."}
   ],
 
   "skills": ["JavaScript", "Vue Js", "Node Js", "Astro" , "CSS", "SQL", "Python", "Django"],
-  "email": "rauleibnez@gmail.com",
+  "email": "rauleibanez@gmail.com",
   "phone": "+123 456 789"
 }

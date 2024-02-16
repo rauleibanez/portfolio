@@ -8,6 +8,23 @@ const { email, phone }= Astro.props;
 ---
 <section>
   <h2>Contacto</h2>
-  <p>Email: {email}</p>
-  <p>Teléfono: {phone}</p>
+  <div class="caja">
+    <p>Email: {email}</p>
+    <p>Teléfono: {phone}</p>
+  </div>  
 </section>
+<style>
+  .caja{
+    display: block;
+  }    
+  /*--------MEDIA QUERY PARA ESCRITORIO--------*/
+  @media (min-width: 650px){
+    .caja{
+      display: flex;
+    }    
+    .caja > p {
+      margin: 0 20px; 
+    }   
+    
+  }
+</style>
