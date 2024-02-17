@@ -1,19 +1,55 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 import Header from '../components/Header.astro';
 import Profile from '../components/Profile.astro';
 import Experience from '../components/Experience.astro';
 import Skills from '../components/Skills.astro';
+import Projects from '../components/Projects.astro';
 import Contact from '../components/Contact.astro';
+import Badges from '../components/Badges.astro';
 import data from './data.json';
 ---
-<Layout title="Pagina de Raul Ibañez.">
+<Layout title="Resumen - Raul Ibañez.">
     <main>
         <Header name={data.name} profession={data.profession} />
         <Profile profile={data.profile} />
-        <Experience experience={data.experience} />
-        <Skills skills={data.skills} />
-        <Contact email={data.email} phone={data.phone} />
-    </main>   
+        <div class="ppal">
+            <div class="izq">
+                <Experience experience={data.experience} />        
+                <Projects projects={data.projects}/>
+            </div>
+            <div class="der">
+                <Skills skills={data.skills} />
+                <Contact email={data.email} phone={data.phone} />
+                <Badges/>
+            </div>
+        </div>       
+    </main>
 </Layout>
+<style>
+    .ppal{
+        display:flex;
+        justify-content: space-between;        
+    }
+    .izq {
+        width: 60%;
+                
+    }
+    .der {
+        width: 40%;
+    }
+    /*--------MEDIA QUERY PARA ESCRITORIO--------*/
+    @media screen and (max-width: 900px) {
+    .ppal{
+      display: block;
+      justify-content: baseline;
+    }    
+    .izq {
+        width: 100%;        
+    }
+    .der {
+        width: 100%;
+    }   
+    
+  }
+</style>

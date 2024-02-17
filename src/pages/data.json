@@ -13,7 +13,17 @@
     { "company": "Chrysler de Venezuela.", "role": "Analista de Sistemas", "years": "2001 - 2008", "description": "Soporte Técnico de red, servidores, usuarios y aplicaciones de las plataformas Windows y Linux."}
   ],
 
-  "skills": ["JavaScript", "Vue Js", "Node Js", "Astro" , "CSS", "SQL", "Python", "Django"],
+  "skills": [
+    { "type": "Languages", "list": ["CSS", "HTML", "JavaScript", "Python"]},
+    { "type": "Libraries & Frameworks", "list": ["Astro", "Django", "Node Js", "Vue Js", "Tailwind CSS", "Bootstrap CSS"]},
+    { "type": "Tools & Platforms", "list": ["Git", "GitHub", "Docker", "Figma", "Canva"]}
+  ],
   "email": "rauleibanez@gmail.com",
-  "phone": "+123 456 789"
+  "phone": "+12 345 678 91 23",
+  "projects": [
+    {"title": "Integración Django + Vue Js", "href": "https://github.com/rauleibanez/djangoCrud_Vue", "body": "Aplicación Vue Js que consume APIs Creadeas en Django Rest Framework."},
+    {"title": "Control de Actividades Django + React Js", "href": "https://github.com/rauleibanez/djangoShop_R", "body": "Aplicación React para Administrar Actividades, versión usando React y Django Rest Framework."},
+    {"title": "Control de Actividades Django", "href": "https://github.com/rauleibanez/djangocrud", "body": "Aplicación para Administrar Actividades, versión usando Django + Jinja."},
+    {"title": "Administracion de Clientes JavaScript ", "href": "https://github.com/rauleibanez/APICRUD_NodeJs_MySQL", "body": "Aplicación para Administrar datos de Clientes, usando Rutas con JavaScript, Node Js, Express Js, MySQL, HBS Render y Bootstrap."}
+  ]
 }

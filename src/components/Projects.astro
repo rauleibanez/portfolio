@@ -1,0 +1,16 @@
+<!-- components/Projects.astro -->
+---
+const {projects}= Astro.props;
+---
+
+<section>
+  <h2>Proyectos Realizados</h2>
+    <ul> {projects.map((pro) => (
+    <li><strong>{pro.title}</strong> - <a href={pro.href}>Ir al repositorio ...</a>        
+      <br>
+      {pro.body}</li>
+      
+      <br>      
+    ))}    
+  </ul>
+</section>

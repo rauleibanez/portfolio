@@ -4,11 +4,17 @@ const {skills}=Astro.props;
 ---
 <section>
   <h2>Habilidades</h2>
-  <ul class="lista-balon">{skills.map(skill => {
-    return (
-    <li class="balon">{skill}</li>)}
-    )}   
-  </ul>  
+  <ul> {skills.map((ski) => (
+    <li><strong>{ski.type}</strong>         
+    
+      <ul class="lista-balon">{ski.list.map((skli) => (
+        <li class="balon">{skli}</li>
+      ))}</ul>
+    
+    
+      </li>
+  ))}    
+  </ul>
 </section>
 <style>
   .balon{
