@@ -1,11 +1,44 @@
+<!-- components/Badges.astro -->
+---
+const {badges}= Astro.props;
+---
+
 <section>
     <h2>Insignias Digitales</h2>
-    <div>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="08e0617d-9082-49a3-870b-f74d13e1421d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="604a647b-670e-40cc-9602-339140cc69ba" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7ecf3a3d-0e93-406c-9410-6c4f0edc644b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a4e7eb75-427c-41fa-b3f0-d3be61ea6bb4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5349c85c-fdd2-4bfe-a25f-823723f5e16b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4c535129-51dd-4420-a304-e1b0738da832" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-    </div>  
+        <ul class="Bdg-lay">{badges.map((bdg) => (
+            <li class="box">
+                <a href={bdg.url}><img src={bdg.img}></a>
+                <p>{bdg.title}</p>
+                <p><i>Issuer: {bdg.issuer}</i></p>
+            </li>
+            ))}
+        </ul>    
 </section>
+<style>
+    .Bdg-lay {
+        padding-left: 0;
+        margin-left: 0;        
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .box {
+        margin: 10px;
+        list-style:none;
+        width: 130px;
+        height: auto;
+        text-align: center;
+        border: 1px solid lightgray;     
+    }
+
+    p {
+        font-family: sans-serif;
+    }
+    
+    img {
+        padding-top: 20px;
+        width: 120px;
+        height: 120px;
+    }
+</style>

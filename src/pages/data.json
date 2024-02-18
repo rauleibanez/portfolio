@@ -12,7 +12,6 @@
     { "company": "Corporacion R.C.A.", "role": "Analista de Sistemas", "years": "2008 - 2010", "description": "Soporte de red, servidores, usuarios y aplicaciones de la plataforma Windows / Office."},
     { "company": "Chrysler de Venezuela.", "role": "Analista de Sistemas", "years": "2001 - 2008", "description": "Soporte Técnico de red, servidores, usuarios y aplicaciones de las plataformas Windows y Linux."}
   ],
-
   "skills": [
     { "type": "Languages", "list": ["CSS", "HTML", "JavaScript", "Python"]},
     { "type": "Libraries & Frameworks", "list": ["Astro", "Django", "Node Js", "Vue Js", "Tailwind CSS", "Bootstrap CSS"]},
@@ -25,5 +24,13 @@
     {"title": "Control de Actividades Django + React Js", "href": "https://github.com/rauleibanez/djangoShop_R", "body": "Aplicación React para Administrar Actividades, versión usando React y Django Rest Framework."},
     {"title": "Control de Actividades Django", "href": "https://github.com/rauleibanez/djangocrud", "body": "Aplicación para Administrar Actividades, versión usando Django + Jinja."},
     {"title": "Administracion de Clientes JavaScript ", "href": "https://github.com/rauleibanez/APICRUD_NodeJs_MySQL", "body": "Aplicación para Administrar datos de Clientes, usando Rutas con JavaScript, Node Js, Express Js, MySQL, HBS Render y Bootstrap."}
+  ],
+  "badges" : [
+    {"title": "Networking Basics", "issuer":"Cisco", "img":"/public/networking-basics.png", "url":"https://www.credly.com/badges/08e0617d-9082-49a3-870b-f74d13e1421d/public_url"},
+    {"title": "Python Essential 1", "issuer":"Cisco", "img":"/public/python-essentials-1.1.png", "url":"https://www.credly.com/badges/4c535129-51dd-4420-a304-e1b0738da832/public_url"},
+    {"title": "Python Essential 2", "issuer":"Cisco", "img":"/public/python-essentials-2.png", "url":"https://www.credly.com/badges/5349c85c-fdd2-4bfe-a25f-823723f5e16b/public_url"},
+    {"title": "Cybersecurity Fundamentals", "issuer":"IBM SkillsBuild", "img":"/public/cybersecurity-fundamentals.png", "url":"https://www.credly.com/badges/a4e7eb75-427c-41fa-b3f0-d3be61ea6bb4/public_url"},
+    {"title": "Web Development Fundamentals", "issuer":"IBM SkillsBuild", "img":"/public/web-development-fundamentals.png", "url":"https://www.credly.com/badges/7ecf3a3d-0e93-406c-9410-6c4f0edc644b/public_url"},
+    {"title": "Web Development with Python", "issuer":"IBM SkillsBuild", "img":"/public/web-development-with-python.png", "url":"https://www.credly.com/badges/604a647b-670e-40cc-9602-339140cc69ba/public_url"}
   ]
 }
